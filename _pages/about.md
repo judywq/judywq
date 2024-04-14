@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: Assistant Professor at <a href='https://celese.jp/'>CELESE</a>, Waseda University
 
