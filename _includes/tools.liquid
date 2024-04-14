@@ -1,29 +1,29 @@
 <div class="grid-sizer"></div>
 <div class="grid-item">
-  <a href="{% if project.redirect %}{{ project.redirect }}{% else %}{{ project.url | relative_url }}{% endif %}">
+  <a href="{% if tool.redirect %}{{ tool.redirect }}{% else %}{{ tool.url | relative_url }}{% endif %}">
     <div class="card hoverable">
-      {% if project.img %}
+      {% if tool.img %}
         {%
           include figure.liquid
           loading="eager"
-          path=project.img
+          path=tool.img
           sizes = "250px"
-          alt="project thumbnail"
+          alt="tool thumbnail"
         %}
       {% endif %}
       <div class="card-body">
-        <h2 class="card-title text-lowercase">{{ project.title }}</h2>
-        <p class="card-text">{{ project.description }}</p>
+        <h2 class="card-title text-lowercase">{{ tool.title }}</h2>
+        <p class="card-text">{{ tool.description }}</p>
         <div class="row ml-1 mr-1 p-0">
-          {% if project.github %}
+          {% if tool.github %}
             <div class="github-icon">
               <div class="icon" data-toggle="tooltip" title="Code Repository">
-                <a href="{{ project.github }}"><i class="fa-brands fa-github gh-icon"></i></a>
+                <a href="{{ tool.github }}"><i class="fa-brands fa-github gh-icon"></i></a>
               </div>
-              {% if project.github_stars %}
+              {% if tool.github_stars %}
                 <span class="stars" data-toggle="tooltip" title="GitHub Stars">
                   <i class="fa-solid fa-star"></i>
-                  <span id="{{ project.github_stars }}-stars"></span>
+                  <span id="{{ tool.github_stars }}-stars"></span>
                 </span>
               {% endif %}
             </div>
