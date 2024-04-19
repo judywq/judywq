@@ -1,6 +1,14 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
-  color: "#00369f"
+"EAIT":
+  url: https://link.springer.com/journal/10639
+  color: "#00727E"
 
-"PhysRev":
-  url: https://journals.aps.org/
+"CALL":
+  url: https://www.tandfonline.com/journals/ncal20
+  color: "#10147e"
+
+"CALL-EJ":
+  url: https://callej.org/index.php/journal
+  color: "#ca1010"
+
+"IJCALLT":
+  url: https://www.igi-global.com/journal/international-journal-computer-assisted-language/41023
