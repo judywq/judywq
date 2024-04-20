@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Grammar Diagnosis
-# github: 
+# github:
 demo_url: https://grammar-diagnosis.herokuapp.com/
 description: An online diagnostic grammar test
 # img: assets/img/12.jpg

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: VocaTT
-# github: 
+# github:
 demo_url: https://vocatt-server.herokuapp.com/
 description: A web-based application for online vocabulary training and testing
 # img: assets/img/12.jpg
