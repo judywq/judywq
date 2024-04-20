@@ -6,7 +6,7 @@ title: blank # the website title (if blank, full name will be used instead)
 first_name: Qiao
 middle_name: (Judy)
 last_name: WANG
-email: 
+email:
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Hompage of Judy Wang. Assistant Professor at the Waseda University.
 footer_text: >
@@ -106,7 +106,7 @@ x_username: # your X handle
 youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
 zotero_username: # your zotero username
 
-contact_note: 
+contact_note:
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
