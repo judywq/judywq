@@ -1,34 +1,31 @@
-"adams":
-  - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
-    url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
+"rose":
+  - firstname: ["Ralph", "Ralph L."]
+    url: http://www.roselab.sci.waseda.ac.jp/
 
-"podolsky":
-  - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
-    url: https://en.wikipedia.org/wiki/Boris_Podolsky
+"peterson":
+  - firstname: ["Mark", "M."]
+    url: https://petersonlab.weebly.com/
 
-"rosen":
-  - firstname: ["Nathan", "N."]
-    url: https://en.wikipedia.org/wiki/Nathan_Rosen
+"anthony":
+  - firstname: ["Laurence", "L."]
+    url: https://www.laurenceanthony.net/
 
-"bach":
-  - firstname: ["Johann Sebastian", "J. S."]
-    url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
+"orita":
+  - firstname: ["Naho", "N."]
+    url: https://oritalab.com/
 
-  - firstname: ["Carl Philipp Emanuel", "C. P. E."]
-    url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
+"yuan":
+  - firstname: ["Zheng", "Z."]
+    url: https://www.cl.cam.ac.uk/~zy249/
 
-"przibram":
-  - firstname: ["Karl"]
-    url: https://link.springer.com/article/10.1007/s00016-019-00242-z
+"li":
+  - firstname: ["Ke", "K."]
+    url: https://www.researchgate.net/profile/Ke_Li158
 
-"schrodinger":
-  - firstname: ["Erwin"]
-    url: https://en.wikipedia.org/wiki/Erwin_Schr%C3%B6dinger
+"sugawara":
+  - firstname: ["Ayaka", "A."]
+    url: https://celese.jp/faculty/sugawara/
 
-"lorentz":
-  - firstname: ["Hendrik Antoon"]
-    url: https://en.wikipedia.org/wiki/Hendrik_Lorentz
-
-"planck":
-  - firstname: ["Max"]
-    url: https://en.wikipedia.org/wiki/Max_Planck
+"mirzaei":
+  - firstname: ["Maryam Sadat", "Maryam"]
+    url: http://sap.ist.i.kyoto-u.ac.jp/members/maryam/
