@@ -7,6 +7,12 @@ assets/plotly/demo.html
 lighthouse_results/**
 _posts/2015-10-20-math.md
 
+_bibliography/
+_plugins/
+assets/
+bin/
+readme_preview/
+
 .dockerignore
 .git-blame-ignore-revs
 .gitignore

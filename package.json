@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "fmt": "prettier --log-level warn --write \"*\""
+    "fmt": "prettier --log-level warn --write \"**/*\""
   },
   "devDependencies": {
     "@shopify/prettier-plugin-liquid": "1.4.0",
