@@ -8,11 +8,11 @@ nav_order: 1
 related_publications: false
 ---
 
-## **Competitive Fundings**
+### **Competitive Fundings**
 
 ---
 
-### The development of an automated writing evaluation system for argumentative essays with large language models
+##### The development of an automated writing evaluation system for argumentative essays with large language models
 
 **April 2024 - March 2025**
 
@@ -20,7 +20,7 @@ related_publications: false
 
 ---
 
-### The development of a computerized adaptive diagnostic grammar test for Japanese university students
+##### The development of a computerized adaptive diagnostic grammar test for Japanese university students
 
 **April 2023 - March 2026**
 
@@ -29,11 +29,11 @@ related_publications: false
 
 <br>
 
-## **Internal Fundings**
+### **Internal Fundings**
 
 ---
 
-### Automated evaluation of semantic content in fact-based writing with semantic similarity tools
+##### Automated evaluation of semantic content in fact-based writing with semantic similarity tools
 
 **July 2022 - March 2023**
 
@@ -41,7 +41,7 @@ related_publications: false
 
 ---
 
-### The creation of a computer-based grammar diagnostic test for Japanese university students
+##### The creation of a computer-based grammar diagnostic test for Japanese university students
 
 **April 2022 - March 2023**
 
@@ -49,7 +49,7 @@ related_publications: false
 
 ---
 
-### The development of an education game for enhancing the motivation and learning outcomes of ESL learners in general
+##### The development of an education game for enhancing the motivation and learning outcomes of ESL learners in general
 
 **April 2021 - April 2022**
 
@@ -57,7 +57,7 @@ related_publications: false
 
 ---
 
-### Integrating computer games into English writing classrooms
+##### Integrating computer games into English writing classrooms
 
 **July 2020 - March 2021**
 
