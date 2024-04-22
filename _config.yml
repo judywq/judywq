@@ -8,11 +8,11 @@ middle_name: (Judy)
 last_name: WANG
 email:
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Hompage of Judy Wang. Assistant Professor at the Waseda University.
+  Hompage of Qiao Wang. Assistant Professor at the Waseda University.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-keywords: Judy Wang, Qiao Wang, Waseda University # add your own keywords or leave empty
+keywords: Judy Wang, Qiao Wang, CELESE, Waseda University # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
