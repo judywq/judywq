@@ -277,6 +277,7 @@ ul.task-list input[type="checkbox"] {
 }
 
 .navbar.navbar-light {
+  font-size: larger;
   a {
     &:hover {
       text-decoration: none;
@@ -289,6 +290,7 @@ ul.task-list input[type="checkbox"] {
 
   .navbar-nav .nav-item .nav-link {
     color: var(--global-text-color);
+    font-weight: bolder;
 
     &:hover {
       color: var(--global-hover-color);
@@ -297,7 +299,6 @@ ul.task-list input[type="checkbox"] {
 
   .navbar-nav .nav-item.active > .nav-link {
     background-color: inherit;
-    font-weight: bolder;
     color: var(--global-theme-color);
 
     &:hover {
