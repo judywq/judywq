@@ -17,5 +17,5 @@ The program is built on the GPT-4 model, NLP libraries and Google Ngram.
 It allows user upload of custom vocabulary list and returns complete quizzes in accordance with user specified parameters.
 
 - The source code is available at: [{{ page.github }}]({{ page.github }})
-- A demo is available at: [{{ page.demo_url }}]({{ page.demo_url }})
-- The paper: {% cite wang2024automated %}.
+- A web user interface is available at: [{{ page.demo_url }}]({{ page.demo_url }})
+- Related publications: {% cite wang2024automated %}.

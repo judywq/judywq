@@ -18,4 +18,4 @@ The purpose is to help students identify their weakness in grammar and address t
 
 <!-- - The source code is available at: [{{ page.github }}]({{ page.github }}) -->
 
-- A demo is available at: [{{ page.demo_url }}]({{ page.demo_url }})
+- A web user interface is available at: [{{ page.demo_url }}]({{ page.demo_url }})
