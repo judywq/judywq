@@ -7,7 +7,7 @@ description: An online diagnostic grammar test
 # img: assets/img/12.jpg
 importance: 3
 category: work
-related_publications: false
+related_publications: true
 ---
 
 ## What is {{ page.title }}
@@ -19,3 +19,4 @@ The purpose is to help students identify their weakness in grammar and address t
 <!-- - The source code is available at: [{{ page.github }}]({{ page.github }}) -->
 
 - A web user interface is available at: [{{ page.demo_url }}]({{ page.demo_url }})
+- Related publications: {% cite wang2024assessing %}.
