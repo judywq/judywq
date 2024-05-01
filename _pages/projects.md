@@ -17,6 +17,9 @@ related_publications: false
 **April 2024 - March 2025**
 
 - Grant name: Grant-in-aid for Cross-Disciplinary Research, Telecommunications Advancement Foundation, Japan
+- Related links
+  - [https://celese.jp/people_news/wang-awarded-prestigious-taf-grant/](https://celese.jp/people_news/wang-awarded-prestigious-taf-grant/)
+  - [https://www.taf.or.jp/files/2115/651882712.pdf](https://www.taf.or.jp/files/2115/651882712.pdf)
 
 ---
 
