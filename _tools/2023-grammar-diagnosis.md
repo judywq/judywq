@@ -15,6 +15,7 @@ related_publications: true
 An online diagnostic grammar test that incorporates a remedial learning section for Japanese university students.
 The test is based on CEFR and CEFR-J and covers a comprehensive range of grammar points students need for their English learning at university.
 The purpose is to help students identify their weakness in grammar and address the weak points through autonomous learning, thus saving instructors' time in grammar feedback at tertiary institutions.
+An adaptive version of the test is under development.
 
 <!-- - The source code is available at: [{{ page.github }}]({{ page.github }}) -->
 
