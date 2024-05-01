@@ -19,4 +19,4 @@ The application currently covers GSL and AWL words and is expected to allow teac
 
 - An intro video is available at: [https://youtu.be/TgkRYZDGN24](https://youtu.be/TgkRYZDGN24)
 - A web user interface is available at: [{{ page.demo_url }}]({{ page.demo_url }})
-- An updated version is available at: [https://vocatt-class1.yisiyu.org/](https://vocatt-class1.yisiyu.org/)
+- An updated version with gamification features is available at: [https://vocatt-class1.yisiyu.org/](https://vocatt-class1.yisiyu.org/)
