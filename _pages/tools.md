@@ -2,7 +2,7 @@
 layout: page
 title: Tools
 permalink: /tools/
-description: A growing collection of the tools we made.
+description: A growing collection of the tools I and my team made.
 nav: true
 nav_order: 3
 display_categories: [work]
