@@ -1,12 +1,22 @@
 ---
 ---
 
+@article{wang2024sequence,
+  bibtex_show = {false},
+  title       = {Sequence Tagging Approach in Grammar Error Detection: Identifying Areas of Improvement for the State-of-the-Art},
+  author      = {Wang, Qiao and Yuan, Zheng},
+  year        = {2024},
+  journal     = {preprint},
+  html        = {https://doi.org/10.21203/rs.3.rs-4479362/v1},
+  abstract    = {This study provides a qualitative evaluation of Seqtagger, a state-of-the-art machine learning-based sequence-tagging model developed for grammatical error detection (GED) and correction (GEC). The model's performance is evaluated on error detection against human benchmarks, with academic texts written by Japanese university students. Through human annotation and subsequent thematic analysis on failures in error detection, this study reveals that Seqtagger performs well in detecting errors related to simpler grammatical rules such as adverb position and prepositions in fixed collocations, with poorer performance in errors possibly influenced by the Japanese language, macro-structure errors and errors where human judgment is required. The underlying reasons for failures in detection are identified to be a narrow context window that fails to capture broader textual information, insufficient training data, particularly data that fully represents the linguistic characteristics of the Japanese students, and overgeneralization of patterns from the training data. These findings highlight the need for sequence-tagging GED and GEC tools to enhance their context window, be more adaptable to the diverse linguistic features of global learners and to enhance the ability to understand the linguistic complexities of the English language.}
+}
+
 @article{wang2024effectiveness,
   bibtex_show = {false},
   title       = {Effectiveness of Large Language Models in Automated Evaluation of Argumentative Essays: Finetuning vs. Zero-Shot Prompting},
   author      = {Wang, Qiao and Gayed, John},
   year        = {2024},
-  journal     = {forthcoming},
+  journal     = {Computer Assisted Language Learning},
   abstract    = {To address the long-standing challenge facing traditional automated writing evaluation (AWE) systems in assessing higher-order thinking, this study built an AWE system for scoring argumentative essays by finetuning the GPT-3.5 Large Language Model and compared the system’s effectiveness with that of the non-finetuned GPT-3.5 and GPT-4 base models via zero-shot prompting methods. The dataset used was the TOEFL Public Writing Dataset provided by Education Testing Service, containing 480 argumentative essays with ground truth scores under two essay prompts. Three finetuned models were generated: two finetuned exclusively on either prompt and one on both. All finetuned and base models were used to score the remaining essays after finetuning and their scoring effectiveness was compared with ground truth scores as the benchmark. The impact of the variety of finetuning prompts and the robustness of finetuned models were also explored. Results showed a 100% consistency of all models in two scoring sessions. More importantly, the finetuned models significantly outperformed the base models in accuracy and reliability. The best-performing model, finetuned on prompt 1, showed an RMSE of 0.57, a percentage agreement (score discrepancy≤0.5) of 84.72% and a QWK of 0.78. Further, the model finetuned on both prompts did not exhibit enhanced performance, and the two models finetuned on one prompt remained robust when scoring essays from the alternative prompt. These results suggest 1) task-specific finetuning for AWE is beneficial; 2) finetuning does not require a large variety of essay prompts; and 3) fine-tuned models are robust to unseen essays.}
 }
 
