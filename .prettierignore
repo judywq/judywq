@@ -21,3 +21,4 @@ Dockerfile
 Gemfile
 LICENSE
 robots.txt
+Makefile
