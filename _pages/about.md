@@ -19,10 +19,4 @@ My research intersects second language acquisition (SLA), natural language proce
 
 I categorize my CALL research into two streams: responsive and inventive CALL. In responsive CALL, I evaluate and apply emerging technologies in language learning, with significant work in GBLL and automated content scoring using NLP tools. I also investigate online learning technologies like live transcripts and metaverse applications in synchronous environments. In inventive CALL, my focus is on creating tools that address real-world needs identified through teaching. Key projects include developing a web-based vocabulary application supporting autonomous learning, integrating gamification features, and leveraging Large Language Models (LLMs) for automated quiz generation. Additionally, I'm collaborating on fine-tuning an automatic grammar error detection model for Japanese learners, aiming to improve its accuracy and adaptability to specific learner challenges.
 
-My current research interests include:
-- NLP and AI for Language Education
-- Computer-Based Testing
-- Automated Writing Evaluation
-- Automated Vocabulary Assessment
-
 Contact: `judy.wang[at]hosei.ac.jp`
