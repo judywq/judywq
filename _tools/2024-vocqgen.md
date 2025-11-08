@@ -2,7 +2,7 @@
 layout: page
 title: VocQGen
 github: https://github.com/judywq/VocQGen
-demo_url: https://vocqgen.streamlit.app/
+demo_url: https://vocqgen.judywang.jp/
 description: A vocabulary question generator
 # img: assets/img/12.jpg
 importance: 1
