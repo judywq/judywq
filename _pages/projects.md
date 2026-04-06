@@ -12,6 +12,21 @@ related_publications: false
 
 ---
 
+##### 英語スピーキング能力の向上を目的としたマルチエージェント議論システムの開発と検証
+
+**April 2026 - March 2028**
+
+- Grant name: Grant-in-aid for Cross-Disciplinary Research, Telecommunications Advancement Foundation, Japan
+
+---
+##### The development and validation of a Large Language Model-powered writing support system for Japanese university students in argumentative writing 
+
+**April 2026 - March 2028**
+
+- Grant name: JSPS Early Career Scientist
+
+---
+
 ##### The development of an automated writing evaluation system for argumentative essays with large language models
 
 **April 2024 - March 2025**
