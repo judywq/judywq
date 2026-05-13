@@ -861,6 +861,23 @@ footer.sticky-bottom {
       div.abstract.hidden.open {
         border-color: var(--global-text-color);
       }
+
+      div.apa.hidden {
+        border: dashed 1px var(--global-bg-color);
+      }
+
+      div.apa.hidden.open {
+        border-color: var(--global-text-color);
+      }
+
+      .apa-citeproc {
+        margin: 10px;
+        line-height: 1.4em;
+
+        .csl-entry {
+          margin: 0;
+        }
+      }
     }
     div.award.hidden {
       border: dashed 1px var(--global-bg-color);

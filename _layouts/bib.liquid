@@ -187,6 +187,7 @@
 
     <!-- Links/Buttons -->
     <div class="links">
+      <a class="apa btn btn-sm z-depth-0" role="button">APA</a>
       {% if entry.award %}
         <a class="award btn btn-sm z-depth-0" role="button">
           {%- if entry.award_name %}{{ entry.award_name }}{% else %}Awarded{% endif -%}
@@ -361,6 +362,15 @@
         {% endhighlight %}
       </div>
     {% endif %}
+
+    <!-- Hidden APA reference block (CiteProc `reference` from scholar.style, optional manual `entry.apa` override) -->
+    <div class="apa hidden">
+      {% if entry.apa != blank %}
+        <p class="mb-0">{{ entry.apa | escape }}</p>
+      {% else %}
+        <div class="mb-0 apa-citeproc">{{ reference }}</div>
+      {% endif %}
+    </div>
 
     {% if entry.video and site.enable_video_embedding %}
       <!-- Hidden video block -->
