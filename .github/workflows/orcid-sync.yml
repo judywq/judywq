@@ -1,0 +1,54 @@
+name: ORCID publication sync
+# Pulls new publications from the ORCID public API, enriches them via Crossref
+# and Semantic Scholar, and opens a pull request with any new BibTeX entries.
+# Existing entries in papers.bib are never modified, so hand-curated abstracts
+# and thumbnails are preserved. Review + enrich the PR before merging.
+
+on:
+  schedule:
+    - cron: "0 6 * * 1" # every Monday at 06:00 UTC
+  workflow_dispatch: # allow manual runs from the Actions tab
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  orcid-sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Fetch new publications from ORCID
+        env:
+          # Optional: add OPENAI_API_KEY under Settings -> Secrets -> Actions to
+          # enable DOI-page abstract/venue enrichment. Without it, the script
+          # still runs using Crossref + Semantic Scholar only.
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        run: python bin/orcid_sync.py
+
+      - name: Open a pull request with new entries
+        uses: peter-evans/create-pull-request@v6
+        with:
+          commit-message: "Add new publications from ORCID"
+          branch: orcid-sync/new-publications
+          delete-branch: true
+          title: "Add new publications from ORCID"
+          body: |
+            Automated update from the ORCID public API, enriched via Crossref and
+            Semantic Scholar.
+
+            **Before merging**, please review each new entry:
+            - confirm venue / author list are correct
+            - fill in or tidy the `abstract` if missing
+            - swap the `html` link for the canonical landing page if desired
+            - add `selected = {true}`, `preview`, or `abbr` if you want it featured
+
+            Entries with a `TODO` note lacked a DOI on the ORCID record and need
+            manual verification.
+          labels: publications, automated
