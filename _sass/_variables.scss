@@ -32,6 +32,16 @@ $grey-900: #212529;
 $white-color: #ffffff !default;
 $black-color: #000000 !default;
 
+// Warm "parchment" palette (literary redesign)
+$parchment-color: #ece5d5 !default; // page background
+$parchment-card-color: #f4efe4 !default; // slightly lighter, for cards/navbar
+$burgundy-color: #7b2233 !default; // deep wine accent (buttons, ornaments, links)
+$ink-color: #2b2320 !default; // warm near-black for headings/body
+
+// Hosei University brand colors (from the logo), used as homepage accents
+$hosei-blue: #16418f !default; // primary accent: headings, links (text-safe on parchment)
+$hosei-orange: #e35c0f !default; // highlight accent: ornaments, icons
+
 // Theme colors
 
 $code-bg-color-light: rgba($purple-color, 0.05);
