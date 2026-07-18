@@ -16,7 +16,25 @@ $accent-2: $hosei-orange;
 
 .post.about {
   // ---- Hero header ---------------------------------------------------------
+  // Header: name/affiliation block, with the mascot sitting immediately to the
+  // right of it (not pushed to the far edge — headline stays content-width).
   .about-header {
+    display: flex;
+    align-items: center;
+    gap: 1.25rem;
+
+    .about-headline {
+      flex: 0 1 auto;
+      min-width: 0;
+    }
+
+    .hero-mascot {
+      flex: 0 0 auto;
+      align-self: flex-start;
+      height: 87px; // matches the combined height of the name + institution
+      width: auto;
+    }
+
     .post-title {
       font-family: $serif-display;
       font-weight: 500;
@@ -284,6 +302,10 @@ html[data-theme="dark"] .post.about {
 // Mobile.
 @media (max-width: 767px) {
   .post.about {
+    .hero-mascot {
+      height: 68px;
+      width: auto;
+    }
     .about-header .post-title {
       font-size: 2.2rem;
     }

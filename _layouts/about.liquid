@@ -3,16 +3,26 @@ layout: default
 ---
 <div class="post about">
   <header class="post-header about-header">
-    <h1 class="post-title">
-      {% if site.title == 'blank' %}
-        <span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }}
-        {{ site.last_name }}
-      {% else %}
-        {{ site.title }}
-      {% endif %}
-    </h1>
-    <p class="desc">{{ page.subtitle }}</p>
-    <span class="about-fleuron" aria-hidden="true">&#10086;</span>
+    <div class="about-headline">
+      <h1 class="post-title">
+        {% if site.title == 'blank' %}
+          <span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }}
+          {{ site.last_name }}
+        {% else %}
+          {{ site.title }}
+        {% endif %}
+      </h1>
+      <p class="desc">{{ page.subtitle }}</p>
+      <span class="about-fleuron" aria-hidden="true">&#10086;</span>
+    </div>
+    {% assign mascot_file = site.static_files | where: "path", "/assets/img/hosei_mascot.png" | first %}
+    {% if mascot_file %}
+      <img
+        class="hero-mascot"
+        src="{{ '/assets/img/hosei_mascot.png' | relative_url }}"
+        alt="Hosei University mascot"
+      >
+    {% endif %}
   </header>
 
   <article>
