@@ -112,8 +112,7 @@ Below is a list of games planned for the seminar, together with showcase of cour
 > Rights holders may contact me for corrections or removal requests.</div>
 
 ## [To the Moon](https://store.steampowered.com/app/206440/To_the_Moon/)
-
-{: .sticker-board\_\_heading}
+{: .sticker-board__heading}
 
 <div class="row mt-3">
     <div class="col-md-8 mt-3 mt-md-0">
@@ -197,8 +196,7 @@ To the Moon offers rich exposure to narrative English, including emotional expre
 ---
 
 ## [Death and Taxes](https://store.steampowered.com/app/1166290/Death_and_Taxes/)
-
-{: .sticker-board\_\_heading}
+{: .sticker-board__heading}
 
 <div class="row mt-3">
     <div class="col-md-8 mt-3 mt-md-0">
@@ -292,8 +290,7 @@ This game provides strong exposure to formal and semi-formal English, especially
 ---
 
 ## [The Sims 4](https://store.steampowered.com/app/1222670/The_Sims_4/)
-
-{: .sticker-board\_\_heading}
+{: .sticker-board__heading}
 
 <!-- ![image](/assets/img/games/The-Sims-4.jpg) -->
 
@@ -351,8 +348,7 @@ The Sims 4 offers an excellent opportunity for language learners to engage with 
 Beyond the titles above, students are welcome to propose other games they find suitable for language learning. The games below are additional options worth exploring, with notes on the skills they support.
 
 ## [Detroit: Become Human](https://store.steampowered.com/app/1222140/Detroit_Become_Human/)
-
-{: .sticker-board\_\_heading}
+{: .sticker-board__heading}
 
 <div class="row mt-3">
     <div class="col-md-8 mt-3 mt-md-0">
@@ -391,8 +387,7 @@ Detroit: Become Human provides an immersive opportunity for language learners du
 ---
 
 ## [Democracy 4](https://store.steampowered.com/app/1410710/Democracy_4/)
-
-{: .sticker-board\_\_heading}
+{: .sticker-board__heading}
 
 <div class="row mt-3">
     <div class="col-md-8 mt-3 mt-md-0">
@@ -429,8 +424,7 @@ Democracy 4 provides a rich environment for learning specialized vocabulary rela
 ---
 
 ## [Unheard: Voices of Crime](https://store.steampowered.com/app/942970/_/)
-
-{: .sticker-board\_\_heading}
+{: .sticker-board__heading}
 
 <div class="row mt-3">
     <div class="col-md-8 mt-3 mt-md-0">
@@ -467,8 +461,7 @@ Unheard - Voices of Crime provides an excellent opportunity for learners to prac
 ---
 
 ## [The Rootrees are Dead](https://store.steampowered.com/app/2754380/The_Roottrees_are_Dead/)
-
-{: .sticker-board\_\_heading}
+{: .sticker-board__heading}
 
 <div class="row mt-3">
     <div class="col-md-8 mt-3 mt-md-0">
@@ -504,8 +497,7 @@ The game provides strong exposure to investigative and media-related English, in
 ---
 
 ## [Two Point Campus](https://store.steampowered.com/app/1649080/Two_Point_Campus/)
-
-{: .sticker-board\_\_heading}
+{: .sticker-board__heading}
 
 <div class="row mt-3">
     <div class="col-md-8 mt-3 mt-md-0">
@@ -541,8 +533,7 @@ The game introduces vocabulary related to education, management, and daily campu
 ---
 
 ## [Two Point Hospital](https://store.steampowered.com/app/535930/Two_Point_Hospital/)
-
-{: .sticker-board\_\_heading}
+{: .sticker-board__heading}
 
 <div class="row mt-3">
     <div class="col-md-8 mt-3 mt-md-0">
@@ -578,8 +569,7 @@ The game provides exposure to medical and management-related vocabulary in a sim
 ---
 
 ## [What Remains of Edith Finch](https://store.steampowered.com/app/501300/What_Remains_of_Edith_Finch/)
-
-{: .sticker-board\_\_heading}
+{: .sticker-board__heading}
 
 <div class="row mt-3">
     <div class="col-md-8 mt-3 mt-md-0">
@@ -615,8 +605,7 @@ The game offers exposure to literary and descriptive English, making it ideal fo
 ---
 
 ## [Life is Strange](https://store.steampowered.com/app/319630/Life_is_Strange__Episode_1/)
-
-{: .sticker-board\_\_heading}
+{: .sticker-board__heading}
 
 <div class="row mt-3">
     <div class="col-md-8 mt-3 mt-md-0">
@@ -652,8 +641,7 @@ The game provides extensive exposure to conversational English, particularly in 
 ---
 
 ## [Heavy Rain](https://store.steampowered.com/app/960910/Heavy_Rain/)
-
-{: .sticker-board\_\_heading}
+{: .sticker-board__heading}
 
 <div class="row mt-3">
     <div class="col-md-8 mt-3 mt-md-0">
