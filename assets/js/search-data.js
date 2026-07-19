@@ -23,14 +23,21 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
-        },{id: "nav-seminar",
-          title: "Seminar",
-          description: "",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/seminar/";
-          },
-        },{id: "nav-tools",
+        },{id: "dropdown-game-based-language-learning",
+              title: "Game-Based Language Learning",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/seminar/";
+              },
+            },{id: "dropdown-academic-research",
+              title: "Academic Research",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/seminar/research/";
+              },
+            },{id: "nav-tools",
           title: "Tools",
           description: "A growing collection of the tools I and my team made.",
           section: "Navigation",

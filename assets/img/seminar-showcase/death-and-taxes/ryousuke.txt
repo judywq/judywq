@@ -1,0 +1,5 @@
+Instructions: 3 plants need to die.
+
+Who were marked as die: Alopecurus pratensis 99746345549..., Alopecurus pratensis 999889999..., Alopecurus pratensis 9999999999...
+
+Reasons: I killed? mowed? the weeds that weren't interesting enough to be mentioned in the report.

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 320" preserveAspectRatio="none" fill="none">
+  <!-- Vine outline — line only, no leaves -->
+  <path
+    d="M14 22
+       C40 10 80 14 110 12
+       C145 10 172 16 186 28
+       C194 48 190 90 188 140
+       C186 190 192 240 186 275
+       C178 300 150 312 110 314
+       C70 316 38 308 20 292
+       C10 270 12 220 10 170
+       C8 120 8 70 14 42
+       C14 32 14 26 14 22 Z"
+    stroke="#9a7d5c"
+    stroke-width="1.75"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+    fill="none"/>
+</svg>
