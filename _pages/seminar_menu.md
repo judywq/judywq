@@ -5,10 +5,8 @@ nav: true
 nav_order: 3
 dropdown: true
 children:
-  - title: Introduction
+  - title: Game-Based Language Learning
     permalink: /seminar/
-  - title: Games
-    permalink: /seminar/games/
-  - title: Student Showcase
-    permalink: /seminar/showcase/
+  - title: Academic Research
+    permalink: /seminar/research/
 ---
