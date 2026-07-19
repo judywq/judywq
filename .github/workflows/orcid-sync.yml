@@ -30,6 +30,7 @@ jobs:
           # enable DOI-page abstract/venue enrichment. Without it, the script
           # still runs using Crossref + Semantic Scholar only.
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          ORCID_SYNC_MODEL: gpt-5.6
         run: python bin/orcid_sync.py
 
       - name: Open a pull request with new entries

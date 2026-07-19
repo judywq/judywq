@@ -78,7 +78,7 @@ KNOWN_SERIES = {
 
 # OpenAI Chat Completions endpoint used for the optional DOI-page extraction.
 OPENAI_API_URL = "https://api.openai.com/v1/chat/completions"
-OPENAI_MODEL = os.environ.get("ORCID_SYNC_MODEL", "gpt-4o-mini")
+OPENAI_MODEL = os.environ.get("ORCID_SYNC_MODEL", "gpt-5.6")
 
 
 # --------------------------------------------------------------------------- #
