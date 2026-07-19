@@ -43,6 +43,7 @@ body_class: research-stickers
         <li><a href="https://kaken.nii.ac.jp/grant/KAKENHI-PROJECT-23K12247">KAKEN</a></li>
       </ul>
     </article>
+
   </div>
 
   <h2 class="sticker-board__heading">Internal Fundings</h2>
@@ -71,6 +72,7 @@ body_class: research-stickers
       <h3 class="funding-entry__title">Integrating computer games into English writing classrooms</h3>
       <p class="funding-entry__meta">Waseda University Grants for Special Research Projects (Research Base Creation)</p>
     </article>
+
   </div>
 
 </div>

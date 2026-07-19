@@ -1,16 +1,16 @@
 {% assign i = include.index0 | default: 0 | modulo: 4 %}
 {% if i == 0 %}
-  {% assign sticker_tilt = "sticker-note--tilt-a" %}
-  {% assign sticker_color = "sticker-note--cream" %}
+  {% assign sticker_tilt = 'sticker-note--tilt-a' %}
+  {% assign sticker_color = 'sticker-note--cream' %}
 {% elsif i == 1 %}
-  {% assign sticker_tilt = "sticker-note--tilt-b" %}
-  {% assign sticker_color = "sticker-note--blush" %}
+  {% assign sticker_tilt = 'sticker-note--tilt-b' %}
+  {% assign sticker_color = 'sticker-note--blush' %}
 {% elsif i == 2 %}
-  {% assign sticker_tilt = "sticker-note--tilt-c" %}
-  {% assign sticker_color = "sticker-note--sage" %}
+  {% assign sticker_tilt = 'sticker-note--tilt-c' %}
+  {% assign sticker_color = 'sticker-note--sage' %}
 {% else %}
-  {% assign sticker_tilt = "sticker-note--tilt-d" %}
-  {% assign sticker_color = "sticker-note--peach" %}
+  {% assign sticker_tilt = 'sticker-note--tilt-d' %}
+  {% assign sticker_color = 'sticker-note--peach' %}
 {% endif %}
 
 <article class="sticker-note {{ sticker_tilt }} {{ sticker_color }} tool-sticker">

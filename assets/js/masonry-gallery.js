@@ -3,11 +3,7 @@
  */
 (function () {
   const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
-  const QUERIES = [
-    "(min-width: 1200px)",
-    "(min-width: 800px)",
-    "(min-width: 520px)",
-  ];
+  const QUERIES = ["(min-width: 1200px)", "(min-width: 800px)", "(min-width: 520px)"];
   const COLUMN_COUNTS = [3, 3, 2];
   const DEFAULT_COLUMNS = 1;
 

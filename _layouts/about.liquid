@@ -6,7 +6,8 @@ layout: default
     <div class="about-headline">
       <h1 class="post-title">
         {% if site.title == 'blank' %}
-          {{ site.first_name }} {{ site.middle_name }}
+          {{ site.first_name }}
+          {{ site.middle_name }}
           {{ site.last_name }}
         {% else %}
           {{ site.title }}
@@ -15,7 +16,7 @@ layout: default
       <p class="desc">{{ page.subtitle }}</p>
       <span class="about-fleuron" aria-hidden="true">&#10086;</span>
     </div>
-    {% assign mascot_file = site.static_files | where: "path", "/assets/img/hosei_mascot.png" | first %}
+    {% assign mascot_file = site.static_files | where: 'path', '/assets/img/hosei_mascot.png' | first %}
     {% if mascot_file %}
       <img
         class="hero-mascot"
