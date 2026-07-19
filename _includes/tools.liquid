@@ -1,35 +1,44 @@
-<div class="col">
-  <a href="{% if tool.redirect %}{{ tool.redirect }}{% else %}{{ tool.url | relative_url }}{% endif %}">
-    <div class="card h-100 hoverable">
-      {% if tool.img %}
+{% assign i = include.index0 | default: 0 | modulo: 4 %}
+{% if i == 0 %}
+  {% assign sticker_tilt = "sticker-note--tilt-a" %}
+  {% assign sticker_color = "sticker-note--cream" %}
+{% elsif i == 1 %}
+  {% assign sticker_tilt = "sticker-note--tilt-b" %}
+  {% assign sticker_color = "sticker-note--blush" %}
+{% elsif i == 2 %}
+  {% assign sticker_tilt = "sticker-note--tilt-c" %}
+  {% assign sticker_color = "sticker-note--sage" %}
+{% else %}
+  {% assign sticker_tilt = "sticker-note--tilt-d" %}
+  {% assign sticker_color = "sticker-note--peach" %}
+{% endif %}
+
+<article class="sticker-note {{ sticker_tilt }} {{ sticker_color }} tool-sticker">
+  <a class="tool-sticker__link" href="{% if tool.redirect %}{{ tool.redirect }}{% else %}{{ tool.url | relative_url }}{% endif %}">
+    {% if tool.img %}
+      <div class="tool-sticker__img">
         {%
           include figure.liquid
           loading="eager"
           path=tool.img
-          sizes = "250px"
+          sizes="250px"
           alt="tool thumbnail"
-          class="card-img-top"
         %}
-      {% endif %}
-      <div class="card-body">
-        <h2 class="card-title">{{ tool.title }}</h2>
-        <p class="card-text">{{ tool.description }}</p>
-        <div class="row ml-1 mr-1 p-0">
-          {% if tool.github %}
-            <div class="github-icon">
-              <div class="icon" data-toggle="tooltip" title="Code Repository">
-                <a href="{{ tool.github }}"><i class="fa-brands fa-github gh-icon"></i></a>
-              </div>
-              {% if tool.github_stars %}
-                <span class="stars" data-toggle="tooltip" title="GitHub Stars">
-                  <i class="fa-solid fa-star"></i>
-                  <span id="{{ tool.github_stars }}-stars"></span>
-                </span>
-              {% endif %}
-            </div>
-          {% endif %}
-        </div>
       </div>
-    </div>
+    {% endif %}
+    <h3 class="sticker-note__title">{{ tool.title }}</h3>
+    {% if tool.description %}
+      <p class="sticker-note__meta">{{ tool.description }}</p>
+    {% endif %}
   </a>
-</div>
+  {% if tool.github or tool.demo_url %}
+    <ul class="sticker-note__links">
+      {% if tool.demo_url %}
+        <li><a href="{{ tool.demo_url }}">Demo</a></li>
+      {% endif %}
+      {% if tool.github %}
+        <li><a href="{{ tool.github }}">GitHub</a></li>
+      {% endif %}
+    </ul>
+  {% endif %}
+</article>

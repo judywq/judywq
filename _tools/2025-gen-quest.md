@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: tool
 title: GenQuest
 demo_url: https://atg.judywang.jp/
 description: An LLM-powered text-adventure game for language learning

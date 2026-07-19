@@ -5,11 +5,8 @@ title: Publications
 description:
 nav: true
 nav_order: 2
+body_class: pub-paper
 ---
-
-<!-- _pages/publications.md -->
-
-<!-- Bibsearch Feature -->
 
 {% include bib_search.liquid %}
 

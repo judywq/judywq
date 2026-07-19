@@ -168,6 +168,10 @@
   <script defer src="{{ '/assets/js/bootstrap-toc.min.js' | relative_url | bust_file_cache }}"></script>
 {% endif %}
 
+{% if page.masonry_gallery %}
+  <script defer src="{{ '/assets/js/masonry-gallery.js' | relative_url | bust_file_cache }}"></script>
+{% endif %}
+
 {% if page.pretty_table %}
   <!-- Bootstrap Table -->
   <!-- Bootstrap Table doesn't go well with diff2html -->

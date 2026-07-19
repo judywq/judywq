@@ -5,61 +5,15 @@ permalink: /tools/
 description: A growing collection of the tools I and my team made.
 nav: true
 nav_order: 4
-display_categories: [work]
 horizontal: false
+body_class: research-stickers
 ---
 
-<!-- pages/tools.md -->
-<div class="tools">
-{% if site.enable_tool_categories and page.display_categories %}
-  <!-- Display categorized tools -->
-  {% for category in page.display_categories %}
-  <a id="{{ category }}" href=".#{{ category }}">
-    <h2 class="category">{{ category }}</h2>
-  </a>
-  {% assign categorized_tools = site.tools | where: "category", category %}
-  {% assign sorted_tools = categorized_tools | sort: "importance" %}
-  <!-- Generate cards for each tool -->
-  {% if page.horizontal %}
-  <div class="container">
-    <div class="row row-cols-1 row-cols-md-2">
-    {% for tool in sorted_tools %}
-      {% include tools_horizontal.liquid %}
-    {% endfor %}
-    </div>
-  </div>
-  {% else %}
-  <div class="row row-cols-1 row-cols-md-3">
-    {% for tool in sorted_tools %}
-      {% include tools.liquid %}
-    {% endfor %}
-  </div>
-  {% endif %}
-  {% endfor %}
-
-{% else %}
-
-<!-- Display tools without categories -->
-
+<div class="tools sticker-board">
 {% assign sorted_tools = site.tools | sort: "importance" %}
-
-  <!-- Generate cards for each tool -->
-
-{% if page.horizontal %}
-
-  <div class="container">
-    <div class="row row-cols-1 row-cols-md-2">
+  <div class="sticker-board__grid">
     {% for tool in sorted_tools %}
-      {% include tools_horizontal.liquid %}
-    {% endfor %}
-    </div>
-  </div>
-  {% else %}
-  <div class="row row-cols-1 row-cols-md-3">
-    {% for tool in sorted_tools %}
-      {% include tools.liquid %}
+      {% include tools.liquid index0=forloop.index0 %}
     {% endfor %}
   </div>
-  {% endif %}
-{% endif %}
 </div>

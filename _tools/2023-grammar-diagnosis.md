@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: tool
 title: Grammar Diagnosis
 # github:
 demo_url: https://grammar-diagnosis.herokuapp.com/

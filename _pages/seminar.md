@@ -5,10 +5,12 @@ permalink: /seminar/
 description: A seminar on learning English through computer games
 nav: false
 related_publications: false
+masonry_gallery: true
+body_class: seminar-menu
 toc:
   sidebar: left
 _styles: |
-  .post article h2 {
+  .post article h2:not(.sticker-board__heading) {
     font-family: "Roboto", -apple-system, Helvetica, Arial, sans-serif;
     font-size: 1.7rem;
     font-weight: 700;
@@ -19,19 +21,28 @@ _styles: |
     padding-bottom: 0.4rem;
     border-bottom: 2px solid rgba(227, 92, 15, 0.5);
   }
-  .post article h3 {
-    font-family: "Caveat", "Segoe Script", cursive;
-    font-size: 2.2rem;
-    font-weight: 700;
-    line-height: 1.1;
-    margin-top: 0.75rem;
-    margin-bottom: 1rem;
+  .post article h2.sticker-board__heading {
+    font-size: 1.35rem;
+    margin-top: 2.75rem;
+    margin-bottom: 1.35rem;
   }
-  .post article h3 a {
-    color: #16418f;
+  .post article h2.sticker-board__heading a {
+    color: inherit;
+    text-decoration: none;
   }
-  .post article h3 a:hover {
-    color: #e35c0f;
+  .post article h2.sticker-board__heading a:hover {
+    color: #8f3a06;
+  }
+  .post article h2.sticker-board__heading:nth-of-type(even) {
+    transform: rotate(1.2deg);
+    background-color: #f8ebe4;
+  }
+  .post article h2.sticker-board__heading:nth-of-type(even)::before {
+    transform: translateX(-50%) rotate(-1deg);
+  }
+  .post article h2.sticker-board__heading:nth-of-type(3n)::before {
+    background: rgba(123, 34, 51, 0.18);
+    border-color: rgba(123, 34, 51, 0.12);
   }
   .post article hr {
     border: none;
@@ -52,61 +63,47 @@ _styles: |
     background: var(--global-bg-color);
     font-size: 1.15rem;
   }
-  #toc-sidebar ul {
-    padding-left: 0;
+  .post article blockquote {
+    border-left-color: #b3490c;
   }
-  #toc-sidebar > ul > li > .nav-link {
-    display: block;
-    padding: 0.3rem 0.25rem;
-    margin: 0.85rem 0 0.4rem;
-    font-family: "Roboto", -apple-system, Helvetica, Arial, sans-serif;
-    font-size: 1rem;
-    font-weight: 700;
+  .showcase-letter__title,
+  .showcase-letter__body,
+  .showcase-letter__body p,
+  .showcase-letter__body p strong {
+    color: #423f3d !important;
+  }
+  html[data-theme="dark"] .post article h2:not(.sticker-board__heading) {
+    color: #f0e6d8;
+    border-bottom-color: rgba(227, 92, 15, 0.55);
+  }
+  html[data-theme="dark"] .post article h2.sticker-board__heading {
     color: #2b2320;
-    background: transparent;
-    border: none;
+    background-image: none;
   }
-  #toc-sidebar > ul > li > .nav-link:hover {
-    color: #8f3a06;
-    background: transparent;
+  html[data-theme="dark"] .post article h2.sticker-board__heading:nth-of-type(even) {
+    background-color: #f0dcd0;
   }
-  #toc-sidebar ul ul {
-    display: block;
-    padding-left: 0.9rem;
-    margin-bottom: 0.5rem;
-    border-left: 1px solid rgba(43, 35, 32, 0.12);
-  }
-  #toc-sidebar ul ul .nav-link {
-    display: block;
-    padding: 0.3rem 0.7rem;
-    margin: 0 0 0.2rem;
-    border: 1px solid transparent;
-    border-radius: 8px;
-    font-family: "Caveat", "Segoe Script", cursive;
-    color: #b3490c;
-    font-size: 1.2rem;
-    line-height: 1.15;
-    transition: background-color 0.18s ease, color 0.18s ease, border-color 0.18s ease;
-  }
-  #toc-sidebar ul ul .nav-link:hover {
-    background-color: #f4efe4;
+  html[data-theme="dark"] .post article h2.sticker-board__heading a:hover {
     color: #8f3a06;
   }
-  #toc-sidebar ul ul .nav-link.active {
-    background-color: #f4efe4;
-    border-color: rgba(227, 92, 15, 0.35);
-    color: #8f3a06;
-    font-weight: 600;
+  html[data-theme="dark"] .post article hr {
+    border-top-color: rgba(240, 230, 216, 0.18);
+  }
+  html[data-theme="dark"] .post article hr::after {
+    color: #f0a05a;
+  }
+  html[data-theme="dark"] .post article blockquote {
+    border-left-color: #f0a05a;
   }
 ---
 
 Welcome to Judy's Seminar on Game-Based English Learning offered at Hosei University!
 
-In this seminar, students will immerse themselves in English language learning through the exciting world of computer games. With the teacher's guidance, students will engage in gameplay, participate in learning activities, and complete assignments designed to boost both motivation and effective learning outcomes. Throughout the seminar, students will have the chance to expand their vocabulary and develop their reading, writing, listening, and speaking skills.
+In this seminar, students immerse themselves in English language learning through the exciting world of computer games. With the teacher's guidance, students will engage in gameplay, participate in learning activities, and complete assignments designed to boost both motivation and effective learning outcomes. Throughout the seminar, students will have the chance to expand their vocabulary and develop their reading, writing, listening, and speaking skills.
 
 Beyond language acquisition, this seminar will also help students cultivate essential skills such as communication, collaboration, creativity, reasoning, and problem-solving. The seminar is open to learners of all proficiency levels, and the difficulty will be adjusted to meet individual needs, ensuring an inclusive and supportive learning environment.
 
-The primary games used in the seminar will be simulation and drama games, which offer immersive, language-rich environments. Additionally, detective and other genres may be incorporated to provide diverse learning experiences. Below is a list of games planned for the seminar, including detailed descriptions and the specific benefits they offer for English learning.
+Below is a list of games planned for the seminar, together with showcase of coursework from the students.
 
 > <div style="color: #6c757d; font-size: 16px;">
 Game titles, logos, and promotional images on this page are trademarks and copyrights of their respective owners.
@@ -114,9 +111,9 @@ Store header images are sourced from the games’ Steam store pages and are used
 This is a non-commercial site and is not affiliated with or endorsed by Valve or any game publisher.
 Rights holders may contact me for corrections or removal requests.</div>
 
-## Games Played and Student Showcase
 
-### [To the Moon](https://store.steampowered.com/app/206440/To_the_Moon/)
+## [To the Moon](https://store.steampowered.com/app/206440/To_the_Moon/)
+{: .sticker-board__heading}
 
 <div class="row mt-3">
     <div class="col-md-8 mt-3 mt-md-0">
@@ -135,27 +132,72 @@ To the Moon offers rich exposure to narrative English, including emotional expre
 - Students write reflective journals summarizing key story events and emotional turning points.
 - Group discussions analyzing characters’ motivations and relationships.
 - Creative writing tasks where students imagine alternative endings or missing scenes.
-- Vocabulary exercises focusing on emotional and descriptive language.
 - Presentations analyzing themes such as memory, regret, and fulfillment.
 
-##### Overall Ratings
+##### Overall Ratings (full score=10)
 
 - Game Difficulty: 2
-- Engagement: 8
+- Engagement: 6
 - Text Genre: Narrative, Drama
 - Text Volume: 9
 - Vocabulary Difficulty: 7
 - Listening Input: None
 - Required English proficiency: Low to Intermediate
-- Helpfulness for English Learning: 9
+- Helpfulness for English Learning: 7
 
-##### Student Showcase
+##### Coursework Showcase
 
-_Student writing and presentations for this game will be added here._
+<div class="showcase">
+  <div class="masonry-gallery" data-masonry-gallery>
+    <p class="showcase__label">Presentation</p>
+    <div class="masonry-gallery__list" role="list" aria-label="Student presentation photos">
+      <a class="masonry-gallery__item" role="listitem" data-key="1" href="{{ '/assets/img/seminar-showcase/to-the-moon/slides/slide-01.jpg' | relative_url }}" data-src="{{ '/assets/img/seminar-showcase/to-the-moon/slides/slide-01.jpg' | relative_url }}" target="_blank" rel="noopener">
+        <span class="masonry-gallery__img" style="background-image: url('{{ '/assets/img/seminar-showcase/to-the-moon/slides/slide-01.jpg' | relative_url }}')"></span>
+        <span class="sr-only">Student presentation photo 1</span>
+      </a>
+      <a class="masonry-gallery__item" role="listitem" data-key="2" href="{{ '/assets/img/seminar-showcase/to-the-moon/slides/slide-02.jpg' | relative_url }}" data-src="{{ '/assets/img/seminar-showcase/to-the-moon/slides/slide-02.jpg' | relative_url }}" target="_blank" rel="noopener">
+        <span class="masonry-gallery__img" style="background-image: url('{{ '/assets/img/seminar-showcase/to-the-moon/slides/slide-02.jpg' | relative_url }}')"></span>
+        <span class="sr-only">Student presentation photo 2</span>
+      </a>
+      <a class="masonry-gallery__item" role="listitem" data-key="3" href="{{ '/assets/img/seminar-showcase/to-the-moon/slides/slide-03.jpg' | relative_url }}" data-src="{{ '/assets/img/seminar-showcase/to-the-moon/slides/slide-03.jpg' | relative_url }}" target="_blank" rel="noopener">
+        <span class="masonry-gallery__img" style="background-image: url('{{ '/assets/img/seminar-showcase/to-the-moon/slides/slide-03.jpg' | relative_url }}')"></span>
+        <span class="sr-only">Student presentation photo 3</span>
+      </a>
+      <a class="masonry-gallery__item" role="listitem" data-key="4" href="{{ '/assets/img/seminar-showcase/to-the-moon/slides/slide-04.jpg' | relative_url }}" data-src="{{ '/assets/img/seminar-showcase/to-the-moon/slides/slide-04.jpg' | relative_url }}" target="_blank" rel="noopener">
+        <span class="masonry-gallery__img" style="background-image: url('{{ '/assets/img/seminar-showcase/to-the-moon/slides/slide-04.jpg' | relative_url }}')"></span>
+        <span class="sr-only">Student presentation photo 4</span>
+      </a>
+      <a class="masonry-gallery__item" role="listitem" data-key="5" href="{{ '/assets/img/seminar-showcase/to-the-moon/slides/slide-05.jpg' | relative_url }}" data-src="{{ '/assets/img/seminar-showcase/to-the-moon/slides/slide-05.jpg' | relative_url }}" target="_blank" rel="noopener">
+        <span class="masonry-gallery__img" style="background-image: url('{{ '/assets/img/seminar-showcase/to-the-moon/slides/slide-05.jpg' | relative_url }}')"></span>
+        <span class="sr-only">Student presentation photo 5</span>
+      </a>
+      <a class="masonry-gallery__item" role="listitem" data-key="6" href="{{ '/assets/img/seminar-showcase/to-the-moon/slides/slide-08.jpg' | relative_url }}" data-src="{{ '/assets/img/seminar-showcase/to-the-moon/slides/slide-08.jpg' | relative_url }}" target="_blank" rel="noopener">
+        <span class="masonry-gallery__img" style="background-image: url('{{ '/assets/img/seminar-showcase/to-the-moon/slides/slide-08.jpg' | relative_url }}')"></span>
+        <span class="sr-only">Student presentation photo 6</span>
+      </a>
+    </div>
+  </div>
+
+  <div>
+    <p class="showcase__label">Student writing</p>
+    <article class="showcase-letter">
+      <p class="showcase-letter__meta">Argumentative essay</p>
+      <h4 class="showcase-letter__title">Should the government ban memory alteration?</h4>
+      <div class="showcase-letter__body">
+        <p>In the game “To the Moon”, doctors change a John’s memories. I think this idea is very interesting. However, should memory alteration be allowed in the real world? I think the government should not allow memory alteration and should ban it. There are three reasons for this.</p>
+        <p>First, wealthy people would be able to buy a perfect life with money. If memory alteration is available, rich people could erase bad memories and create happier ones. On the other hand, poor people would not be able to do the same. This could increase inequality in society gradually.</p>
+        <p>Second, there is a possibility that governments or corporations could manipulate people’s memories. If governments use memory alteration, it could lead to a dictatorship allowing them to control what people think and remember. If corporations use memory alteration, they could manipulate people’s decisions and make large profits for their benefit.</p>
+        <p>Third, people may not be able to truly consent to having their memories rewritten. Memories are an important part of a person’s identity. If someone’s memories changed, they may become a different person in some ways. Therefore, it is difficult to know whether a person can fully understand the consequences of memory alteration before agreeing to it. Personally, I think bad memories are an important part of who we are. It is a necessary experience in life. Therefore, memory alteration should not be freely allowed.</p>
+        <p>In conclusion, the government should ban memory alteration because rich people could buy a perfect life, governments or corporations could manipulate people’s memories, and true consent may be impossible when memories are rewritten. For these reasons, the government should ban memory alteration.</p>
+      </div>
+    </article>
+  </div>
+</div>
 
 ---
 
-### [Death and Taxes](https://store.steampowered.com/app/1166290/Death_and_Taxes/)
+## [Death and Taxes](https://store.steampowered.com/app/1166290/Death_and_Taxes/)
+{: .sticker-board__heading}
 
 <div class="row mt-3">
     <div class="col-md-8 mt-3 mt-md-0">
@@ -173,28 +215,82 @@ This game provides strong exposure to formal and semi-formal English, especially
 
 - Students debate ethical decisions made during gameplay.
 - Writing assignments explaining their reasoning for life-and-death choices.
-- Role-playing workplace conversations between the player and supervisor.
-- Vocabulary exercises focusing on abstract concepts such as morality, fate, and justice.
-- Reflection essays connecting in-game decisions to real-world ethics.
 
 ##### Overall Ratings
 
 - Game Difficulty: 4
-- Engagement: 7
+- Engagement: 8
 - Text Genre: Philosophy, Workplace
 - Text Volume: 7
-- Vocabulary Difficulty: 8
-- Listening Input: None
+- Vocabulary Difficulty: 8 (many rare but interesting words)
+- Listening Input: Yes (occasional conversation with the Boss)
 - Required English proficiency: Intermediate
 - Helpfulness for English Learning: 8
 
-##### Student Showcase
+##### Coursework Showcase
 
-_Student writing and presentations for this game will be added here._
+<div class="showcase">
+  <div>
+    <p class="showcase__label">Decision letters</p>
+
+    <article class="showcase-letter">
+      <p class="showcase-letter__meta">Student · Decision write-up</p>
+      <h4 class="showcase-letter__title">Who should die?</h4>
+      <div class="showcase-letter__figures">
+        <figure>
+          <img src="{{ '/assets/img/seminar-showcase/death-and-taxes/chin-img-1.jpeg' | relative_url }}" alt="Decision screenshot 1" loading="lazy">
+        </figure>
+        <figure>
+          <img src="{{ '/assets/img/seminar-showcase/death-and-taxes/chin-img-2.jpg' | relative_url }}" alt="Decision screenshot 2" loading="lazy">
+        </figure>
+      </div>
+      <div class="showcase-letter__body">
+        <p><strong>Instructions:</strong> Two people need to die. Spare humans who seem helpful against the trouble.</p>
+        <p><strong>Marked to die:</strong> Europa Steel and Garrett Galt</p>
+        <p>There is a news about family in poverty after join a multi level maketing scheme, so i chose Europa. Although she is doing well on her job, it would make some naive people become poor. What she doing seems to contribute to the problem.</p>
+        <p>I found it interesting that some people’s job are very unusual shuch as poacher and morgue assistant. Then, I had difficulty deciding who to die between Garrett and Ami Morin Podge. Aim’s job is a hunter who hunt the elusive animals, which is harmful to the environment. However, the profile also mentions that the fangs can cure many health problems. Therefore, I chose Garrett to die because he is a bad inventor and scam artist. What him doing is leading to the ruin of several businesses and the death of a number of people. He doesn’t seem helpful against the trouble either, so I chose him to die.</p>
+      </div>
+    </article>
+
+    <article class="showcase-letter showcase-letter--alt">
+      <p class="showcase-letter__meta">Student · Decision write-up</p>
+      <h4 class="showcase-letter__title">Three plants need to die</h4>
+      <div class="showcase-letter__figures">
+        <figure>
+          <img src="{{ '/assets/img/seminar-showcase/death-and-taxes/ryousuke-img-1.jpg' | relative_url }}" alt="Decision screenshot" loading="lazy">
+        </figure>
+      </div>
+      <div class="showcase-letter__body">
+        <p><strong>Instructions:</strong> 3 plants need to die.</p>
+        <p><strong>Marked to die:</strong> Alopecurus pratensis 99746345549…, Alopecurus pratensis 999889999…, Alopecurus pratensis 9999999999…</p>
+        <p>I killed? mowed? the weeds that weren't interesting enough to be mentioned in the report.</p>
+      </div>
+    </article>
+  </div>
+
+  <div>
+    <p class="showcase__label">Student presentations</p>
+    <div class="showcase-videos">
+      <div class="showcase-video">
+        <div class="showcase-video__frame">
+          <iframe src="https://www.youtube-nocookie.com/embed/bCfqyF8ixE4?start=4" title="Death and Taxes student presentation 1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen loading="lazy"></iframe>
+        </div>
+        <p class="showcase-video__caption">Presentation 1</p>
+      </div>
+      <div class="showcase-video">
+        <div class="showcase-video__frame">
+          <iframe src="https://www.youtube-nocookie.com/embed/HRuDwo_0iUE?start=10" title="Death and Taxes student presentation 2" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen loading="lazy"></iframe>
+        </div>
+        <p class="showcase-video__caption">Presentation 2</p>
+      </div>
+    </div>
+  </div>
+</div>
 
 ---
 
-### [The Sims 4](https://store.steampowered.com/app/1222670/The_Sims_4/)
+## [The Sims 4](https://store.steampowered.com/app/1222670/The_Sims_4/)
+{: .sticker-board__heading}
 
 <!-- ![image](/assets/img/games/The-Sims-4.jpg) -->
 
@@ -213,31 +309,46 @@ The Sims 4 offers an excellent opportunity for language learners to engage with 
 ##### Suggested Learning Activities
 
 - Students can keep a journal documenting their Sims' experiences, including the language related to everyday activities such as cooking, cleaning, and working.
-- Group discussions can focus on comparing Sims' lives to real-world routines, providing opportunities for vocabulary practice.
 - Role-playing activities based on Sims scenarios, such as job interviews or social events, can further enhance conversational skills.
-- Reflective essays on decision-making in the game can encourage critical thinking and language application in real-world contexts.
 - Presentations of gameplay recordings are also desirable.
 
 ##### Overall Ratings
 
 - Game Difficulty: 3
-- Engagement: 7
+- Engagement: 9
 - Text Genre: Daily Life
-- Text Volume: 6
+- Text Volume: 7
 - Vocabulary Difficulty: 6
 - Listening Input: None
 - Requirement of English proficiency: Low to Intermediate
-- Helpfulness for English Learning: 8
+- Helpfulness for English Learning: 7
 
-##### Student Showcase
+##### Coursework Showcase
 
-_Student writing and presentations for this game will be added here._
-
-## Other Suggested Games
+<div class="showcase">
+  <div>
+    <p class="showcase__label">Student writing</p>
+    <article class="showcase-letter">
+      <p class="showcase-letter__meta">Household profile</p>
+      <h4 class="showcase-letter__title">Introduction to the Household</h4>
+      <div class="showcase-letter__figures">
+        <figure>
+          <img src="{{ '/assets/img/seminar-showcase/sims4/household-1.jpg' | relative_url }}" alt="Sims household screenshot" loading="lazy">
+        </figure>
+      </div>
+      <div class="showcase-letter__body">
+        <p>The one of the center is Hotdog Man. He is the father of his daughter, which one of the left. He is childish, clumsy and goofball man however his aspiration is to being nerdy. He likes to listen to Kids Radio Music.</p>
+        <p>The one of the right is Hotdog Women. She is the mother. She is erratic, goofball and glutton women and her aspiration is to being master chef. She likes to cook.</p>
+        <p>The one of the left is Kuso Gaki. She is the daughter of parents that explained previously, and she is goofball and vegetarian. Due to being vegetarian, she cannot eat hotdogs despite her looks. Her aspiration is to being angling ace and she likes fishing. However, she is vegetarian.</p>
+      </div>
+    </article>
+  </div>
+</div>
 
 Beyond the titles above, students are welcome to propose other games they find suitable for language learning. The games below are additional options worth exploring, with notes on the skills they support.
 
-### [Detroit: Become Human](https://store.steampowered.com/app/1222140/Detroit_Become_Human/)
+## [Detroit: Become Human](https://store.steampowered.com/app/1222140/Detroit_Become_Human/)
+{: .sticker-board__heading}
 
 <div class="row mt-3">
     <div class="col-md-8 mt-3 mt-md-0">
@@ -275,7 +386,8 @@ Detroit: Become Human provides an immersive opportunity for language learners du
 
 ---
 
-### [Democracy 4](https://store.steampowered.com/app/1410710/Democracy_4/)
+## [Democracy 4](https://store.steampowered.com/app/1410710/Democracy_4/)
+{: .sticker-board__heading}
 
 <div class="row mt-3">
     <div class="col-md-8 mt-3 mt-md-0">
@@ -311,7 +423,8 @@ Democracy 4 provides a rich environment for learning specialized vocabulary rela
 
 ---
 
-### [Unheard: Voices of Crime](https://store.steampowered.com/app/942970/_/)
+## [Unheard: Voices of Crime](https://store.steampowered.com/app/942970/_/)
+{: .sticker-board__heading}
 
 <div class="row mt-3">
     <div class="col-md-8 mt-3 mt-md-0">
@@ -347,7 +460,8 @@ Unheard - Voices of Crime provides an excellent opportunity for learners to prac
 
 ---
 
-### [The Rootrees are Dead](https://store.steampowered.com/app/2754380/The_Roottrees_are_Dead/)
+## [The Rootrees are Dead](https://store.steampowered.com/app/2754380/The_Roottrees_are_Dead/)
+{: .sticker-board__heading}
 
 <div class="row mt-3">
     <div class="col-md-8 mt-3 mt-md-0">
@@ -382,7 +496,8 @@ The game provides strong exposure to investigative and media-related English, in
 
 ---
 
-### [Two Point Campus](https://store.steampowered.com/app/1649080/Two_Point_Campus/)
+## [Two Point Campus](https://store.steampowered.com/app/1649080/Two_Point_Campus/)
+{: .sticker-board__heading}
 
 <div class="row mt-3">
     <div class="col-md-8 mt-3 mt-md-0">
@@ -417,7 +532,8 @@ The game introduces vocabulary related to education, management, and daily campu
 
 ---
 
-### [Two Point Hospital](https://store.steampowered.com/app/535930/Two_Point_Hospital/)
+## [Two Point Hospital](https://store.steampowered.com/app/535930/Two_Point_Hospital/)
+{: .sticker-board__heading}
 
 <div class="row mt-3">
     <div class="col-md-8 mt-3 mt-md-0">
@@ -452,7 +568,8 @@ The game provides exposure to medical and management-related vocabulary in a sim
 
 ---
 
-### [What Remains of Edith Finch](https://store.steampowered.com/app/501300/What_Remains_of_Edith_Finch/)
+## [What Remains of Edith Finch](https://store.steampowered.com/app/501300/What_Remains_of_Edith_Finch/)
+{: .sticker-board__heading}
 
 <div class="row mt-3">
     <div class="col-md-8 mt-3 mt-md-0">
@@ -487,7 +604,8 @@ The game offers exposure to literary and descriptive English, making it ideal fo
 
 ---
 
-### [Life is Strange](https://store.steampowered.com/app/319630/Life_is_Strange__Episode_1/)
+## [Life is Strange](https://store.steampowered.com/app/319630/Life_is_Strange__Episode_1/)
+{: .sticker-board__heading}
 
 <div class="row mt-3">
     <div class="col-md-8 mt-3 mt-md-0">
@@ -522,7 +640,8 @@ The game provides extensive exposure to conversational English, particularly in 
 
 ---
 
-### [Heavy Rain](https://store.steampowered.com/app/960910/Heavy_Rain/)
+## [Heavy Rain](https://store.steampowered.com/app/960910/Heavy_Rain/)
+{: .sticker-board__heading}
 
 <div class="row mt-3">
     <div class="col-md-8 mt-3 mt-md-0">

@@ -1355,9 +1355,9 @@ ninja-keys::part(ninja-input-wrapper) {
   }
 }
 
-// highlight-search-term
+// highlight-search-term: light wash so body text stays readable
 ::highlight(search) {
-  background-color: var(--global-theme-color);
+  background-color: rgba($hosei-orange, 0.28);
   color: var(--global-text-color);
 }
 

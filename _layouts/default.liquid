@@ -16,9 +16,16 @@
   </head>
 
   <!-- Body -->
-  <body class="{% if site.navbar_fixed %}fixed-top-nav{% endif %} {% unless site.footer_fixed %}sticky-bottom-footer{% endunless %}">
+  <body class="{% if site.navbar_fixed %}fixed-top-nav{% endif %} {% unless site.footer_fixed %}sticky-bottom-footer{% endunless %}{% if page.body_class %} {{ page.body_class }}{% endif %}">
     <!-- Header -->
     {% include header.liquid %}
+
+    <div class="pub-corners" aria-hidden="true">
+      <span class="pub-corner pub-corner--tl"></span>
+      <span class="pub-corner pub-corner--tr"></span>
+      <span class="pub-corner pub-corner--bl"></span>
+      <span class="pub-corner pub-corner--br"></span>
+    </div>
 
     <!-- Content -->
     <div class="container mt-5" role="main">

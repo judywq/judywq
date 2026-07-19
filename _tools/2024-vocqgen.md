@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: tool
 title: VocQGen
 github: https://github.com/judywq/VocQGen
 demo_url: https://vocqgen.judywang.jp/

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 70" fill="none">
+  <!-- Top: open elliptical mouth + hinged lid -->
+  <defs>
+    <linearGradient id="rim" x1="0.5" y1="0" x2="0.5" y2="1">
+      <stop offset="0%" stop-color="#6b4a32"/>
+      <stop offset="100%" stop-color="#3a271a"/>
+    </linearGradient>
+    <linearGradient id="lid" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#efe0c6"/>
+      <stop offset="100%" stop-color="#c9ae88"/>
+    </linearGradient>
+  </defs>
+  <ellipse cx="100" cy="48" rx="88" ry="20" fill="url(#rim)" stroke="#3a271a" stroke-width="3.5"/>
+  <ellipse cx="100" cy="50" rx="62" ry="10" fill="#24160f" opacity="0.65"/>
+  <g transform="translate(28, 22) rotate(-22)">
+    <ellipse cx="0" cy="0" rx="26" ry="22" fill="url(#lid)" stroke="#3a271a" stroke-width="3.5"/>
+    <ellipse cx="0" cy="3" rx="14" ry="11" fill="none" stroke="#3a271a" stroke-width="2" opacity="0.4"/>
+  </g>
+</svg>

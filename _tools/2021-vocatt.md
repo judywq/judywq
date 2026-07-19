@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: tool
 title: VocaTT
 # github:
 description: A web-based application for online vocabulary training and testing
