@@ -294,7 +294,6 @@ def llm_extract(doi: str, title: str, api_key: str) -> dict | None:
     payload = {
         "model": OPENAI_MODEL,
         "messages": [{"role": "user", "content": prompt}],
-        "temperature": 0,
         "response_format": {"type": "json_object"},
     }
     resp = http_post_json(OPENAI_API_URL, payload, {"Authorization": f"Bearer {api_key}"})
@@ -480,7 +479,6 @@ def check_openai() -> int:
             "model": OPENAI_MODEL,
             "messages": [{"role": "user", "content": "Reply with exactly: OK"}],
             "max_tokens": 5,
-            "temperature": 0,
         },
         {"Authorization": f"Bearer {key}"},
     )
